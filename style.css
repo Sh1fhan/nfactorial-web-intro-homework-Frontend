@@ -1,0 +1,142 @@
+body {
+    margin: 20px 40px;
+}
+  
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 16px;
+}
+  
+.row1 {
+    display: flex;
+}
+
+.row5 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.row7 {
+    display: flex;
+    align-items: center;
+}
+
+.row8 {
+    width: 100%;
+    display: flex;
+}
+
+.row9 {
+    width: 100%;
+    display: flex;
+}
+
+.red1 {
+    height: 60px;
+    width: 100%;
+    background-color: red;
+}
+
+.blue1 {
+    height: 60px;
+    width: 100%;
+    background-color: blue;
+}
+
+.green2 {
+    height: 60px;
+    width: 95%;
+    background-color: green;
+}
+
+.blue2 {
+    height: 60px;
+    width: 5%;
+    background-color: blue;
+}
+
+.green3  {
+    height: 60px;
+    width: 90%;
+    background-color: green;
+}
+
+.red3 {
+    height: 60px;
+    width: 5%;
+    background-color: red;
+}
+
+.red4 {
+    height: 60px;
+    width: 95%;
+    background-color: red;
+}
+
+.green5 {
+    height: 60px;
+    width: 100%;
+    position: relative;
+    background-color: green;
+}
+
+.red5 {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+.red6 {
+    height: 60px;
+    width: 50%;
+    background-color: red;
+}
+
+.red7 {
+    height: 60px;
+    width: 5%;
+    background-color: red;
+}
+
+.blue3 {
+    height: 60px;
+    width: 100%;    
+    background-color: blue;
+    position: relative;
+}
+
+.green6 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    bottom: 20px;
+    background-color: green;
+}
+
+.container {
+    height: 60px;
+    width: 100%;
+}
+
+.row8 .container:nth-child(even) {
+    background-color: green;
+}
+
+.row8 .container:nth-child(odd) {
+    background-color: orange;
+    width: 25%;
+}
+
+.row9 .container:nth-child(even) {
+    background-color: green;
+    width: 5%;
+}
+
+.row9 .container:nth-child(odd) {
+    background-color: orange;
+}
