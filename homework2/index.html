@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const teamname = "Real Madrid";
+        let players = 11;
+        let coach = true;
+        let goals = 0;
+        let nextgame = null;
+        let stadium = undefined;
+        let wins = 14;
+        let championtitles = 1;
+        
+        let footballteam = {
+            teamname,
+            players,
+            coach,
+            goals,
+            nextgame,
+            stadium
+        }
+
+        footballteam.wins = wins;
+        footballteam["championtitles"] = championtitles;
+        delete footballteam.championtitles;
+
+        console.log(footballteam);
+
+
+        let vehicle = {};
+        vehicle.brandname = "BMW";
+        vehicle.model = "X5";
+        vehicle.model = "M1";
+        delete vehicle.model;
+
+        console.log(vehicle);
+
+        let salaries = {
+	        Aroo: 100,
+	        Dalida: 160,
+	        Samat: 130
+        }
+        let sum = 0;
+        for(let i in salaries) {
+            sum += salaries[i];
+        }
+
+        console.log("sum of salary =",sum);
+    </script>
+</body>
+</html>
